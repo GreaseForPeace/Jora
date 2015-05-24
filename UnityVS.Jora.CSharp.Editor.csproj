@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D4C74D8-20BD-C27A-BE69-B7F6B9AAB12D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>4.6.1f1</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;UNIRPG_CORE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;UNIRPG_CORE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Messaging">
+      <HintPath>Assets\UnityVS\Editor\SyntaxTree.VisualStudio.Unity.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityVS.VersionSpecific">
+      <HintPath>Assets\UnityVS\Editor\UnityVS.VersionSpecific.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.Jora.CSharp.Plugins.csproj">
+      <Project>{954CCC88-796B-0B37-AA11-05B373FBF5DB}</Project>
+      <Name>UnityVS.Jora.CSharp.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityVS.Jora.CSharp.csproj">
+      <Project>{FAFB69D9-BEA9-D9A0-6C89-047700113249}</Project>
+      <Name>UnityVS.Jora.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\DiaQ\Editor\DiaQDecisionEd.cs" />
+    <Compile Include="Assets\DiaQ\Editor\DiaQEdGUI.cs" />
+    <Compile Include="Assets\DiaQ\Editor\DiaQEdUtil.cs" />
+    <Compile Include="Assets\DiaQ\Editor\DiaQEditorWindow.cs" />
+    <Compile Include="Assets\DiaQ\Editor\DiaQGraphSelectWiz.cs" />
+    <Compile Include="Assets\DiaQ\Editor\DiaQInspector.cs" />
+    <Compile Include="Assets\DiaQ\Editor\DiaQVarSelectWiz.cs" />
+    <Compile Include="Assets\DiaQ\Editor\DiaQVersion.cs" />
+    <Compile Include="Assets\DiaQ\Editor\DiaQuestSelectWiz.cs" />
+    <Compile Include="Assets\DiaQ\UniRPG\Editor\DiaQAction_Ed.cs" />
+    <Compile Include="Assets\DiaQ\UniRPG\Editor\DiaQCondAction_Ed.cs" />
+    <Compile Include="Assets\DiaQ\UniRPG\Editor\DiaQDecisionAction_Ed.cs" />
+    <Compile Include="Assets\DiaQ\UniRPG\Editor\DiaQRewardAction_Ed.cs" />
+    <Compile Include="Assets\DiaQ\UniRPG\Editor\DiaQUniRPGEditor.cs" />
+    <Compile Include="Assets\DiaQ\UniRPG\Editor\DiaQVarAction_Ed.cs" />
+    <Compile Include="Assets\DiaQ\UniRPG\Editor\DiaQuestAction_Ed.cs" />
+    <Compile Include="Assets\Editor\Water (Pro Only)\Water4\GerstnerDisplaceEditor.cs" />
+    <Compile Include="Assets\Editor\Water (Pro Only)\Water4\PlanarReflectionEditor.cs" />
+    <Compile Include="Assets\Editor\Water (Pro Only)\Water4\SpecularLightingEditor.cs" />
+    <Compile Include="Assets\Editor\Water (Pro Only)\Water4\WaterBaseEditor.cs" />
+    <Compile Include="Assets\Editor\Water (Pro Only)\Water4\WaterEditorUtility.cs" />
+    <Compile Include="Assets\UniRPG\Default Assets\Cameras\Editor\DefaultCam1Editor.cs" />
+    <Compile Include="Assets\UniRPG\Default Assets\Cameras\Editor\DefaultCam2Editor.cs" />
+    <Compile Include="Assets\UniRPG\Default Assets\Character2\Editor\Chara2_Ani_acted.cs" />
+    <Compile Include="Assets\UniRPG\Default Assets\Character2\Editor\Chara2_Move_acted.cs" />
+    <Compile Include="Assets\UniRPG\Default Assets\Character2\Editor\Chara2_NPC_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Default Assets\Character2\Editor\Chara2_Player_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Default Assets\Character2\Editor\Chara2_Type_acted.cs" />
+    <Compile Include="Assets\UniRPG\Default Assets\GUI\Editor\DefaultGUIEditor.cs" />
+    <Compile Include="Assets\UniRPG\Default Assets\LoadSave\Editor\DefaultLoadSave_ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Common\InspectorBase.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Camera\GameCameraAttribute.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Camera\GameCameraEditorBase.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\CameraEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\DatabaseEdBase.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\DatabaseEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\DatabaseEditorAttribute.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\GUIEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\RPGActorClassEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\RPGAttributeEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\RPGEventEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\RPGLootEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\RPGSkillEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\RPGStateEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Database\SystemEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\GUI\GUIEditorBase.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\GUI\UniRPGGUIThemeAttribute.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\ActorInspector.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\CollidableObjectInspctor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\DatabaseInspector.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\InteractableBaseEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\PatrolPathInspector.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\PlaceableObjectInspector.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\RPGItemInspector.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\RPGObjectInspector.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\SpawnPointInspector.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\TriggerInspector.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\Inspectors\UniqueMBInspector.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\LoadSave\LoadSaveProviderAttribute.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Editors\LoadSave\LoadSaveProviderEdbase.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Misc\AnimationClipLister.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Misc\FindMissingScripts.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Misc\TestWindow.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\UniRPG\UniRPGAbout.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\UniRPG\UniRPGEdGui.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\UniRPG\UniRPGEdUtil.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\UniRPG\UniRPGEditorCache.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\UniRPG\UniRPGEditorGlobal.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\UniRPG\UniRPGEditorMenu.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\UniRPG\UniRPGEditorToolbar.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\UniRPG\UniRPGHelpers.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\UniRPG\UniRPGRatingPrompt.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\UniRPG\UniRPGSettingsEditor.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\ActionInfoAttribute.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\ActionWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\ActionsEdBase.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\AnimationAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\AttributeAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\BagAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\CameraSelectAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\CharacterEnDisableAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\CollidableAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\CreateLootAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\CurrencyAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\CustomVarAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\DebugLogAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\DelayAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\DestroyAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\EquipAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\ExecuteRandom_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\GUIAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\GlobalVarAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\IfThenAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\LoadSceneAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\MecanimParamAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\MoveObjectAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\ObjectEnabledAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\SendMessageAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\SkillChangeAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\SkillEquipAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\SoundAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\SpawnAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\StateChangeAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\StopExeAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\Actions\TargetingFlagAction_Ed.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\ActorClassSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\ActorSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\AttributeSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\CameraSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\EventSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\GUIThemeSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\GlobalVarSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\InputSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\ItemSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\LoadSaveSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\LootSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\SkillSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\StateSelectWiz.cs" />
+    <Compile Include="Assets\UniRPG\Editor\Scripts\Wizards\TextInputWiz.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\DiaQ\Documentation\readme.txt" />
+    <None Include="Assets\DiaQ\Documentation\version.txt" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+    <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+    <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+    <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+    <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+    <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+    <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+    <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\UniRPG\Documentation\readme.txt" />
+    <None Include="Assets\UniRPG\Documentation\specials.txt" />
+    <None Include="Assets\UniRPG\Documentation\version.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+</Project>
