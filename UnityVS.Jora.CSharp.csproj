@@ -65,6 +65,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CharacterMotion.cs" />
     <Compile Include="Assets\DiaQ\Script\DiaQAsset.cs" />
     <Compile Include="Assets\DiaQ\Script\DiaQConversation.cs" />
     <Compile Include="Assets\DiaQ\Script\DiaQDecision.cs" />
@@ -182,6 +183,7 @@
     <Compile Include="Assets\UniRPG\Scripts\UniRPG\UniRPGSettings.cs" />
     <Compile Include="Assets\UniRPG\Scripts\UniRPG\UniRPGUtil.cs" />
     <Compile Include="Assets\UniRPG\Scripts\UniRPG\UniqueMonoBehaviour.cs" />
+    <Compile Include="Assets\Yohoho\MyScripts\MovePlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DiaQ\Documentation\readme.txt" />

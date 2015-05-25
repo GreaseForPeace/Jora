@@ -1,0 +1,11 @@
+D:\GitHub\Jora\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+D:\GitHub\Jora\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\GitHub\Jora\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\GitHub\Jora\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\GitHub\Jora\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\GitHub\Jora\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\GitHub\Jora\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\GitHub\Jora\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\GitHub\Jora\obj\Debug\UnityVS.Jora.CSharp.Plugins.csprojResolveAssemblyReference.cache
+D:\GitHub\Jora\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\GitHub\Jora\obj\Debug\Assembly-CSharp-firstpass.pdb
