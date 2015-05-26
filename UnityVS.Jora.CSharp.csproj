@@ -83,6 +83,7 @@
     <Compile Include="Assets\DiaQ\UniRPG\Script\DiaQVarAction.cs" />
     <Compile Include="Assets\DiaQ\UniRPG\Script\DiaQuestAction.cs" />
     <Compile Include="Assets\DiaQ\UniRPG\Script\DiaQuestListProvider.cs" />
+    <Compile Include="Assets\OneTwoJango\Scripts\LoadOnClick.cs" />
     <Compile Include="Assets\UniRPG\Default Assets\Cameras\Scripts\DefaultCam1.cs" />
     <Compile Include="Assets\UniRPG\Default Assets\Cameras\Scripts\DefaultCam1InputBinder.cs" />
     <Compile Include="Assets\UniRPG\Default Assets\Cameras\Scripts\DefaultCam2.cs" />
