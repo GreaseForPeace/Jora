@@ -182,6 +182,7 @@
     <None Include="Assets\UniRPG\Documentation\readme.txt" />
     <None Include="Assets\UniRPG\Documentation\specials.txt" />
     <None Include="Assets\UniRPG\Documentation\version.txt" />
+    <None Include="Assets\Yohoho\MyTextures\Hand Painted Texture Pack - Natural Surfaces 1.10\Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
 </Project>
