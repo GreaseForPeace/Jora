@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-Fucking
-=======
-HALLELUJAH!
->>>>>>> origin/pre-testing
